@@ -1,6 +1,7 @@
 # @nationalbankbelgium/ngrx-store
 
 This is a backport of ngrx-store (https://github.com/ngrx/store) for AngularJS.
+The benefit of using this is that you can already start writing code that's ready for new Angular versions, making your legacy application easier to upgrade later on.
 
 ### Installation
 Install @nationalbankbelgium/ngrx-store from npm:
@@ -112,7 +113,7 @@ export class MyAppComponent implements IController {
 ## Contributing
 ### Submitting Pull Requests
 
-**Please follow these basic steps to simplify pull request reviews - if you don"t you"ll probably just be asked to anyway.**
+**Please follow these basic steps to simplify pull request reviews - if you don"t you"ll probably just be asked to anyway. Note that we're not willing to diverge from the original ngrx-store feature-set. This is only intended as a simple backport with no additional features.**
 
 * Please rebase your branch against the current master
 * Run ```npm install``` to make sure your development dependencies are up-to-date
