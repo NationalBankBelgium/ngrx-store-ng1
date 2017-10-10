@@ -39,8 +39,8 @@ export function counterReducer(state: number = 0, action: Action) {
 }
 ```
 
-In your app"s main module, import those reducers and use the `$storeProvider.provideStore(reducers)`
-function to provide them to Angular"s injector:
+In your app's main module, import those reducers and use the `$storeProvider.provideStore(reducers)`
+function to provide them to Angular's injector:
 
 ```ts
 import { StoreModule } from "@nationalbankbelgium/ngrx-store";
@@ -113,18 +113,18 @@ export class MyAppComponent implements IController {
 ## Contributing
 ### Submitting Pull Requests
 
-**Please follow these basic steps to simplify pull request reviews - if you don"t you"ll probably just be asked to anyway. Note that we're not willing to diverge from the original ngrx-store feature-set. This is only intended as a simple backport with no additional features.**
+**Please follow these basic steps to simplify pull request reviews - if you don't you'll probably just be asked to anyway. Note that we're not willing to diverge from the original ngrx-store feature-set. This is only intended as a simple backport with no additional features.**
 
 * Please rebase your branch against the current master
 * Run ```npm install``` to make sure your development dependencies are up-to-date
 * Please ensure the test suite passes before submitting a PR
-* If you"ve added new functionality, **please** include tests which validate its behaviour
+* If you've added new functionality, **please** include tests which validate its behaviour
 * Make reference to possible [issues](https://github.com/NationalBankBelgium/ngrx-store-ng1/issues) on PR comment
 
 ### Submitting bug reports
 
 * Please detail the affected browser(s) and operating system(s)
-* Please be sure to state which version of node **and** npm you"re using
+* Please be sure to state which version of node **and** npm you're using
 
 ## License
 This project is licensed under the terms of the European Public License (EUPL) open source license. You can find the complete terms in the [LICENSE](LICENSE) file.
