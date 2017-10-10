@@ -1,4 +1,4 @@
-# @nationalbank/ngrx-store
+# @nationalbankbelgium/ngrx-store
 
 This is a backport of ngrx-store (https://github.com/ngrx/store) for AngularJS.
 
