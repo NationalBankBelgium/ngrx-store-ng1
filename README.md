@@ -127,6 +127,6 @@ export class MyAppComponent implements IController {
 * Please be sure to state which version of node **and** npm you"re using
 
 ## License
-This project is licensed under the terms of the European Public License (EUPL) open source license. You can find the complete terms in the (LICENSE) file.
+This project is licensed under the terms of the European Public License (EUPL) open source license. You can find the complete terms in the [LICENSE](LICENSE) file.
 
 Note that this project includes a copy of subset of the original ngrx-store codebase. Those remain bound to their original MIT license.
