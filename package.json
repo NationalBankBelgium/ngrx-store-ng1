@@ -42,7 +42,7 @@
       "url": "https://www.nbb.be"
     }
   ],
-  "license": "EUPL",
+  "license": "EUPL-1.1",
   "bugs": {
     "url": "https://github.com/NationalBankBelgium/ngrx-store-ng1/issues"
   },
