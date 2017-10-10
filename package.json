@@ -1,0 +1,77 @@
+{
+  "name": "@nationalbankbelgium/ngrx-store",
+  "version": "1.0.0",
+  "description": "RxJS powered Redux for AngularJS apps",
+  "main": "./index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run tsc && npm run copy_package",
+    "copy_package": "cpy LICENSE package.json README.md dist",
+    "lint": "tslint src/**.ts",
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "RxJS",
+    "AngularJS",
+    "Redux"
+  ],
+  "author": {
+    "email": "sebastien.dubois@nbb.be",
+    "name": "Dubois Sebastien",
+    "url": "https://www.nbb.be"
+  },
+  "contributors": [
+    {
+      "email": "sebastien.dubois@nbb.be",
+      "name": "Dubois Sebastien",
+      "url": "https://www.nbb.be"
+    },
+    {
+      "email": "cedric.namotte@nbb.be",
+      "name": "Cedric Namotte",
+      "url": "https://www.nbb.be"
+    },
+    {
+      "email": "alexis.georges@nbb.be",
+      "name": "Alexis Georges",
+      "url": "https://www.nbb.be"
+    },
+    {
+      "email": "christopher.cortes@nbb.be",
+      "name": "Christopher Cortes",
+      "url": "https://www.nbb.be"
+    }
+  ],
+  "license": "EUPL",
+  "bugs": {
+    "url": "https://github.com/NationalBankBelgium/ngrx-store-ng1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NationalBankBelgium/ngrx-store-ng1.git"
+  },
+  "homepage": "https://github.com/NationalBankBelgium/ngrx-store-ng1",
+  "dependencies": {
+    "@types/angular": ">= 1.5.0 < 2",
+    "angular": ">= 1.5.0 < 2",
+    "rxjs": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/core-js": "0.9.43",
+    "@types/jasmine": "2.6.0",
+    "@types/node": "6.0.88",
+    "cpy-cli": "^1.0.1",
+    "core-js": "^2.4.1",
+    "jasmine": "^2.5.2",
+    "jasmine-core": "^2.5.2",
+    "rimraf": "^2.5.4",
+    "tslint": "^4.4.2",
+    "typescript": "^2.3.0",
+    "zone.js": "^0.7.6"
+  },
+  "typings": "./index.d.ts",
+  "engines": {
+    "node": ">=6.11.0",
+    "npm": ">=5.3.0"
+  }
+}
