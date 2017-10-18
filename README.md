@@ -43,7 +43,6 @@ In your app's main module, import those reducers and use the `$storeProvider.pro
 function to provide them to Angular's injector:
 
 ```ts
-import { StoreModule } from "@nationalbankbelgium/ngrx-store";
 import { ngrxStoreProviderName, StoreProvider } from "@nationalbankbelgium/ngrx-store/ng1";
 import { counterReducer } from "./counter";
 
