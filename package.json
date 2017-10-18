@@ -1,6 +1,6 @@
 {
   "name": "@nationalbankbelgium/ngrx-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "RxJS powered Redux for AngularJS apps",
   "main": "./index.js",
   "scripts": {
