@@ -1,5 +1,7 @@
 # @nationalbankbelgium/ngrx-store
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/NationalBankBelgium/ngrx-store-ng1.svg)](https://greenkeeper.io/)
+
 This is a backport of ngrx-store (https://github.com/ngrx/store) for AngularJS.
 The benefit of using this is that you can already start writing code that's ready for new Angular versions, making your legacy application easier to upgrade later on.
 
